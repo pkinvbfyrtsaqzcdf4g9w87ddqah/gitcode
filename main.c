@@ -5,8 +5,8 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	float r,area;
-	printf("輸入半徑：");
+	float r,area;//定義兩個浮點型變量
+	printf("輸入半徑：");//友情提示
 	scanf("%f",&r);
 	area=PI*r*r;
 	printf("面積為：%f",area);
